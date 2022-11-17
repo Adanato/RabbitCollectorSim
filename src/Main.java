@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+import Game.Player;
+
 import java.util.*;
 public class Main {
 
@@ -15,7 +16,7 @@ public class Main {
         while(true){
             System.out.println("What do you want to do?");
             System.out.println("Here is a list of options:");
-            System.out.println("[1] Train your pet, [2] Battle others, [3]get more Rabbits, or [4] quit the game");
+            System.out.println("[1] Places.Train your pet, [2] Battle others, [3]get more Rabbits, or [4] quit the game");
             int action = Integer.valueOf(scan.nextInt());
             if(action == 4)
             {

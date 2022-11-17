@@ -1,12 +1,18 @@
+package Game;
+
+import Entities.Rabbit;
+import java.util.*;
 public class Player {
     private String playerName;
     private int money;
     private Rabbit pet;
+    private ArrayList<Rabbit> rabbitCarrier;
 
     public Player(String playerName){
         this.playerName = playerName;
         money = 0;
         pet = new Rabbit("Rabbo");
+        rabbitCarrier = new ArrayList<Rabbit>();
     }
 
     public String getPlayerName() {

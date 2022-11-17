@@ -1,3 +1,5 @@
+package Entities;
+
 public class Rabbit {
     private String name;
     private int age;
@@ -7,7 +9,8 @@ public class Rabbit {
     private int speed;
     private int strength;
     private int intelligence;
-
+    private int level;
+    private double experience;
 //Constructors
     //default rabbit
     public Rabbit(String name){
