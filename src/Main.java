@@ -1,12 +1,25 @@
 import Game.Player;
-
+import javax.swing.*;
+import java.awt.*;
 import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
 
         //Game start
+        JFrame frame = new JFrame();
+        frame.setTitle("Menu");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);
+        frame.setSize(500,500);
+        frame.setVisible(true);
+
+        ImageIcon image = new ImageIcon();
+        frame.setIconImage(image.getImage());
+        frame.getContentPane().setBackground(new Color(0, 166, 227));
         Scanner scan = new Scanner(System.in);
+
+
         System.out.println("What is your name?");
         String playerName = scan.nextLine();
         Player player = new Player(playerName);
