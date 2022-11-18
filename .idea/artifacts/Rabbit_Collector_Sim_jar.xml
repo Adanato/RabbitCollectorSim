@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Rabbit Collector Sim:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Rabbit_Collector_Sim_jar</output-path>
+    <root id="archive" name="Rabbit Collector Sim.jar">
+      <element id="module-output" name="Rabbit Collector Sim" />
+    </root>
+  </artifact>
+</component>
